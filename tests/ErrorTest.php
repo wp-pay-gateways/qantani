@@ -8,9 +8,9 @@
  * @author Remco Tolsma
  * @version 1.0.0
  */
-class Pronamic_WP_Gateways_Qantani_ErrorTest extends PHPUnit_Framework_TestCase {
+class Pronamic_WP_Pay_Gateways_Qantani_ErrorTest extends PHPUnit_Framework_TestCase {
 	public function testToStringError() {
-		$error = new Pronamic_WP_Gateways_Qantani_Error( '1', 'Error' );
+		$error = new Pronamic_WP_Pay_Gateways_Qantani_Error( '1', 'Error' );
 
 		$string = (string) $error;
 
