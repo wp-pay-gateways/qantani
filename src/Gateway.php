@@ -112,11 +112,11 @@ class Pronamic_WP_Pay_Gateways_Qantani_Gateway extends Pronamic_WP_Pay_Gateway {
 		$checksum       = filter_input( INPUT_GET, 'checksum', FILTER_SANITIZE_STRING );
 
 		switch ( $status ) {
-			case Pronamic_WP_Pay_Gateways_Qantani_Client::PAYMENT_STATUS_PAID:
+			case Pronamic_WP_Pay_Gateways_Qantani_PaymentStatuses::PAID:
 				$payment->set_status( Pronamic_Gateways_IDealAdvanced_Transaction::STATUS_SUCCESS );
 
 				break;
-			case Pronamic_WP_Pay_Gateways_Qantani_Client::PAYMENT_STATUS_CANCELLED:
+			case Pronamic_WP_Pay_Gateways_Qantani_PaymentStatuses::CANCELLED:
 				$payment->set_status( Pronamic_Gateways_IDealAdvanced_Transaction::STATUS_CANCELLED );
 
 				break;

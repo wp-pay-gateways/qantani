@@ -25,16 +25,6 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 
 	//////////////////////////////////////////////////
 
-	const RESPONSE_STATUS_OK = 'OK';
-
-	//////////////////////////////////////////////////
-
-	const PAYMENT_STATUS_CANCELLED = '0';
-
-	const PAYMENT_STATUS_PAID = '1';
-
-	//////////////////////////////////////////////////
-
 	/**
 	 * The payment server URL
 	 *
@@ -215,7 +205,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( $xml->Status == self::RESPONSE_STATUS_OK ) {
+				if ( $xml->Status == Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK ) {
 					foreach ( $xml->Banks->Bank as $bank ) {
 						$id   = Pronamic_XML_Util::filter( $bank->Id );
 						$name = Pronamic_XML_Util::filter( $bank->Name );
@@ -264,7 +254,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( $xml->Status == self::RESPONSE_STATUS_OK ) {
+				if ( $xml->Status == Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK ) {
 					$xml_response = $xml->Response;
 
 					$result = new stdClass();
