@@ -90,7 +90,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Gateway extends Pronamic_WP_Pay_Gateway {
 			add_query_arg( 'payment', $payment->get_id(), home_url( '/' ) )
 		);
 
-		if ( $result !== false ) {
+		if ( false !== $result ) {
 			$payment->set_transaction_id( $result->transaction_id );
 			$payment->set_action_url( $result->bank_url );
 		} else {
