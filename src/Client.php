@@ -87,8 +87,8 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 		return $this->merchant_id;
 	}
 
-	public function set_merchant_id( $id ) {
-		$this->merchant_id = $id;
+	public function set_merchant_id( $merchant_id ) {
+		$this->merchant_id = $merchant_id;
 	}
 
 	//////////////////////////////////////////////////
