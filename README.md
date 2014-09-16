@@ -9,3 +9,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/wp-pay-gateways/qantani/v/unstable.svg)](https://packagist.org/packages/wp-pay-gateways/qantani)
 [![License](https://poser.pugx.org/wp-pay-gateways/qantani/license.svg)](https://packagist.org/packages/wp-pay-gateways/qantani)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+## Links
+
+*	[Qantani](https://www.qantani.com/)
+*	[Qantani API documentation (Dutch)](https://www.qantani.com/nl/documentatie/api-documentatie)
