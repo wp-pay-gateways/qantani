@@ -238,7 +238,8 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			'Amount'      => number_format( $amount, 2, '.', '' ),
 			'Currency'    => $currency,
 			'Bank'        => $bank_id,
-			'Description' => $description,
+			// The description of the transaction. Maximum 30 characters!
+			'Description' => substr( $description, 0, 30 ),
 			'Return'      => $return_url,
 		);
 
