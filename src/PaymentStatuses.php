@@ -20,4 +20,22 @@ class Pronamic_WP_Pay_Gateways_Qantani_PaymentStatuses {
 	 * @var string
 	 */
 	const PAID = '1';
+
+	/////////////////////////////////////////////////
+
+	/**
+	 * Transform an Qantani payment status an more global status
+	 *
+	 * @param string $status
+	 */
+	public static function transform( $status ) {
+		switch ( $status ) {
+			case self::CANCELLED :
+				return Pronamic_WP_Pay_Statuses::CANCELLED;
+			case self::PAID :
+				return Pronamic_WP_Pay_Statuses::SUCCESS;
+			default :
+				return null;
+		}
+	}
 }
