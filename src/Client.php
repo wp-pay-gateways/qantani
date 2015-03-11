@@ -165,7 +165,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 	 *
 	 * A Checksum, which is a SHA1 representation of: id + secret + status + rand, the secret is
 	 * the transaction code that can be found in the response from step 2.
-
+	 *
 	 * @param string $transaction_id
 	 * @param string $secret
 	 * @param string $status

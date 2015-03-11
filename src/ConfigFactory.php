@@ -9,6 +9,12 @@
  * @version 1.0.0
  */
 class Pronamic_WP_Pay_Gateways_Qantani_ConfigFactory extends Pronamic_WP_Pay_GatewayConfigFactory {
+	/**
+	 * Get config by post ID
+	 *
+	 * @param int $post_id
+	 * @return Pronamic_WP_Pay_Gateways_Qantani_Config
+	 */
 	public function get_config( $post_id ) {
 		$config = new Pronamic_WP_Pay_Gateways_Qantani_Config();
 

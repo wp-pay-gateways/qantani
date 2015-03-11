@@ -9,9 +9,24 @@
  * @version 1.0.0
  */
 class Pronamic_WP_Pay_Gateways_Qantani_Config extends Pronamic_WP_Pay_GatewayConfig {
+	/**
+	 * Merchant ID
+	 *
+	 * @var string
+	 */
 	public $merchant_id;
 
+	/**
+	 * Secret key
+	 *
+	 * @var string
+	 */
 	public $secret_key;
 
+	/**
+	 * Key version
+	 *
+	 * @var string
+	 */
 	public $key_version;
 }
