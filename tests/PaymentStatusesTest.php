@@ -24,5 +24,5 @@ class Pronamic_WP_Pay_Gateways_Qantani_PaymentStatusesTest extends PHPUnit_Frame
 			array( Pronamic_WP_Pay_Gateways_Qantani_PaymentStatuses::PAID, Pronamic_WP_Pay_Statuses::SUCCESS ),
 			array( 'not existing status', null ),
 		);
-    }
+	}
 }
