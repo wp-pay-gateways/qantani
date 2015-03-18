@@ -1,3 +1,4 @@
+/* jshint node:true */
 module.exports = function( grunt ) {
 	// Project configuration.
 	grunt.initConfig( {
@@ -6,18 +7,19 @@ module.exports = function( grunt ) {
 
 		// JSHint
 		jshint: {
-			all: [ 'Gruntfile.js', 'composer.json', 'package.json' ]
+			options: grunt.file.readJSON( '.jshintrc' ),
+			grunt: {
+				src: [ 'Gruntfile.js' ]
+			}
 		},
 
 		// PHP Code Sniffer
 		phpcs: {
 			application: {
-				dir: [ 'src' ],
+				src: [ 'src/**/*.php', 'tests/**/*.php' ]
 			},
 			options: {
-				standard: 'phpcs.ruleset.xml',
-				extensions: 'php',
-				ignore: 'node_modules'
+				standard: 'phpcs.ruleset.xml'
 			}
 		},
 
@@ -45,8 +47,8 @@ module.exports = function( grunt ) {
 		
 		// PHPUnit
 		phpunit: {
-			application: {},
-		},
+			application: {}
+		}
 	} );
 
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
