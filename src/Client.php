@@ -124,7 +124,6 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 
 		return Pronamic_WP_Util::remote_get_body( $url, 200, array(
 			'method'    => 'POST',
-			'sslverify' => false,
 			'body'      => array(
 				'data' => $data,
 			),
