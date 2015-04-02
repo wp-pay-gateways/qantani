@@ -124,7 +124,6 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 
 		return Pronamic_WP_Util::remote_get_body( $url, 200, array(
 			'method'    => 'POST',
-			'sslverify' => false,
 			'body'      => array(
 				'data' => $data,
 			),
@@ -165,7 +164,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 	 *
 	 * A Checksum, which is a SHA1 representation of: id + secret + status + rand, the secret is
 	 * the transaction code that can be found in the response from step 2.
-
+	 *
 	 * @param string $transaction_id
 	 * @param string $secret
 	 * @param string $status
