@@ -19,7 +19,8 @@ module.exports = function( grunt ) {
 				src: [ 'src/**/*.php', 'tests/**/*.php' ]
 			},
 			options: {
-				standard: 'phpcs.ruleset.xml'
+				standard: 'phpcs.ruleset.xml',
+				showSniffCodes: true
 			}
 		},
 

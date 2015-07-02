@@ -204,7 +204,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( $xml->Status == Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK ) {
+				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === $xml->Status ) {
 					foreach ( $xml->Banks->Bank as $bank ) {
 						$id   = Pronamic_XML_Util::filter( $bank->Id );
 						$name = Pronamic_XML_Util::filter( $bank->Name );
@@ -254,7 +254,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( $xml->Status == Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK ) {
+				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === $xml->Status ) {
 					$xml_response = $xml->Response;
 
 					$result = new stdClass();

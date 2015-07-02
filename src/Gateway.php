@@ -69,7 +69,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Gateway extends Pronamic_WP_Pay_Gateway {
 			'label'    => __( 'Choose your bank', 'pronamic_ideal' ),
 			'required' => true,
 			'type'     => 'select',
-			'choices'  => $this->get_transient_issuers()
+			'choices'  => $this->get_transient_issuers(),
 		);
 	}
 

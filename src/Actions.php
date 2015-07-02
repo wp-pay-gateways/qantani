@@ -45,14 +45,14 @@ class Pronamic_WP_Pay_Gateways_Qantani_Actions {
 	const CANCEL_CALLBACK = 'CANCEL_CALLBACK';
 
 	/**
-	 * iDEAL execute
+	 * Action iDEAL execute
 	 *
 	 * @var string
 	 */
 	const IDEAL_EXECUTE = 'IDEAL.EXECUTE';
 
 	/**
-	 * iDEAL get banks
+	 * Action iDEAL get banks
 	 *
 	 * @var string
 	 */
