@@ -1,10 +1,25 @@
-# Changelog
+# Change Log
 
-## 1.0.2
-*	No longer disable SSL verify.
+All notable changes to this project will be documented in this file.
 
-## 1.0.1
-*	Changed WordPress pay core library requirment from ~1.0.0 to >=1.0.0.
+This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).
 
-## 1.0.0
-*	First release.
+## [Unreleased][unreleased]
+-
+
+## [1.0.3] - 2015-08-04
+- Make sure to use the wp-pay/core XML security functions.
+
+## [1.0.2] - 2015-04-02
+- No longer disable SSL verify.
+
+## [1.0.1] - 2015-03-03
+- Changed WordPress pay core library requirment from ~1.0.0 to >=1.0.0.
+
+## 1.0.0 - 2015-01-19
+- First release.
+
+[unreleased]: https://github.com/wp-pay-gateways/qantani/compare/1.0.3...HEAD
+[1.0.3]: https://github.com/wp-pay-gateways/qantani/compare/1.0.2...1.0.3
+[1.0.2]: https://github.com/wp-pay-gateways/qantani/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/wp-pay-gateways/qantani/compare/1.0.0...1.0.1
