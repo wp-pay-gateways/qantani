@@ -204,16 +204,16 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( $xml->Status == Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK ) {
+				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === $xml->Status ) {
 					foreach ( $xml->Banks->Bank as $bank ) {
-						$id   = Pronamic_XML_Util::filter( $bank->Id );
-						$name = Pronamic_XML_Util::filter( $bank->Name );
+						$id   = Pronamic_WP_Pay_XML_Security::filter( $bank->Id );
+						$name = Pronamic_WP_Pay_XML_Security::filter( $bank->Name );
 
 						$banks[ $id ] = $name;
 					}
 				} else {
-					$id          = Pronamic_XML_Util::filter( $xml->Error->ID );
-					$description = Pronamic_XML_Util::filter( $xml->Error->Description );
+					$id          = Pronamic_WP_Pay_XML_Security::filter( $xml->Error->ID );
+					$description = Pronamic_WP_Pay_XML_Security::filter( $xml->Error->Description );
 
 					$qantani_error = new Pronamic_WP_Pay_Gateways_Qantani_Error( $id, $description );
 
@@ -254,17 +254,17 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( $xml->Status == Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK ) {
+				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === $xml->Status ) {
 					$xml_response = $xml->Response;
 
 					$result = new stdClass();
-					$result->transaction_id = Pronamic_XML_Util::filter( $xml_response->TransactionID );
-					$result->code           = Pronamic_XML_Util::filter( $xml_response->Code );
-					$result->bank_url       = Pronamic_XML_Util::filter( $xml_response->BankURL );
-					$result->acquirer       = Pronamic_XML_Util::filter( $xml_response->Acquirer );
+					$result->transaction_id = Pronamic_WP_Pay_XML_Security::filter( $xml_response->TransactionID );
+					$result->code           = Pronamic_WP_Pay_XML_Security::filter( $xml_response->Code );
+					$result->bank_url       = Pronamic_WP_Pay_XML_Security::filter( $xml_response->BankURL );
+					$result->acquirer       = Pronamic_WP_Pay_XML_Security::filter( $xml_response->Acquirer );
 				} else {
-					$error_id          = Pronamic_XML_Util::filter( $xml->Error->ID );
-					$error_description = Pronamic_XML_Util::filter( $xml->Error->Description );
+					$error_id          = Pronamic_WP_Pay_XML_Security::filter( $xml->Error->ID );
+					$error_description = Pronamic_WP_Pay_XML_Security::filter( $xml->Error->Description );
 
 					$error = new Pronamic_WP_Pay_Gateways_Qantani_Error( $error_id, $error_description );
 
