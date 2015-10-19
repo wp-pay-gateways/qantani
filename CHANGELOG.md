@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.0.5] - 2015-10-19
+- Fixed strict comparison issue on XML status element.
+
 ## [1.0.4] - 2015-10-19
 - Fixed strict comparison issue on XML status element.
 
