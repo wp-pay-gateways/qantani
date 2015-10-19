@@ -7,6 +7,9 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [1.0.4] - 2015-10-19
+- Fixed strict comparison issue on XML status element.
+
 ## [1.0.3] - 2015-08-04
 - Make sure to use the wp-pay/core XML security functions.
 
