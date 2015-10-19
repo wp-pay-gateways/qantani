@@ -6,7 +6,8 @@
  * Copyright: Copyright (c) 2005 - 2015
  * Company: Pronamic
  * @author Remco Tolsma
- * @version 1.0
+ * @since 1.0.0
+ * @version 1.0.5
  */
 class Pronamic_WP_Pay_Gateways_Qantani_Client {
 	/**
@@ -185,8 +186,10 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 	//////////////////////////////////////////////////
 
 	/**
-	 * Get banks
+	 * Get banks.
 	 *
+	 * @since 1.0.0
+	 * @version 1.0.5
 	 * @return Ambigous <boolean, multitype:string >
 	 */
 	public function get_banks() {
@@ -204,7 +207,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === $xml->Status ) {
+				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === Pronamic_WP_Pay_XML_Security::filter( $xml->Status ) ) {
 					foreach ( $xml->Banks->Bank as $bank ) {
 						$id   = Pronamic_WP_Pay_XML_Security::filter( $bank->Id );
 						$name = Pronamic_WP_Pay_XML_Security::filter( $bank->Name );
@@ -228,7 +231,10 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 	//////////////////////////////////////////////////
 
 	/**
-	 * Create transaction
+	 * Create transaction.
+	 *
+	 * @since 1.0.0
+	 * @version 1.0.5
 	 */
 	public function create_transaction( $amount, $currency, $bank_id, $description, $return_url ) {
 		$result = false;
@@ -254,7 +260,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 			if ( is_wp_error( $xml ) ) {
 				$this->error = $xml;
 			} else {
-				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === $xml->Status ) {
+				if ( Pronamic_WP_Pay_Gateways_Qantani_ResponseStatuses::OK === Pronamic_WP_Pay_XML_Security::filter( $xml->Status ) ) {
 					$xml_response = $xml->Response;
 
 					$result = new stdClass();
