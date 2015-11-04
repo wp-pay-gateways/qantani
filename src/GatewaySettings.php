@@ -29,6 +29,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_GatewaySettings extends Pronamic_WP_Pay_G
 	public function fields( array $fields ) {
 		// Merchant ID
 		$fields[] = array(
+			'filter'      => FILTER_SANITIZE_STRING,
 			'section'     => 'qantani',
 			'meta_key'    => '_pronamic_gateway_qantani_merchant_id',
 			'title'       => _x( 'Merchant ID', 'qantani', 'pronamic_ideal' ),
@@ -38,6 +39,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_GatewaySettings extends Pronamic_WP_Pay_G
 
 		// Merchant Key
 		$fields[] = array(
+			'filter'      => FILTER_SANITIZE_STRING,
 			'section'     => 'qantani',
 			'meta_key'    => '_pronamic_gateway_qantani_merchant_key',
 			'title'       => _x( 'Merchant Key', 'qantani', 'pronamic_ideal' ),
@@ -47,6 +49,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_GatewaySettings extends Pronamic_WP_Pay_G
 
 		// Merchant Secret
 		$fields[] = array(
+			'filter'      => FILTER_SANITIZE_STRING,
 			'section'     => 'qantani',
 			'meta_key'    => '_pronamic_gateway_qantani_merchant_secret',
 			'title'       => _x( 'Merchant Secret', 'qantani', 'pronamic_ideal' ),
