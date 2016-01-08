@@ -313,7 +313,11 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 		$transaction->appendChild( $parameters_element );
 
 		foreach ( $parameters as $key => $value ) {
-			$element = $document->createElement( $key, $value );
+			$element = $document->createElement( $key );
+
+			$text_node = $document->createTextNode( $value );
+
+			$element->appendChild( $text_node );
 
 			$parameters_element->appendChild( $element );
 		}
