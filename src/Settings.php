@@ -5,6 +5,7 @@
  * Description:
  * Copyright: Copyright (c) 2005 - 2016
  * Company: Pronamic
+ *
  * @author Remco Tolsma
  * @version 1.1.0
  * @since 1.1.0
@@ -22,7 +23,6 @@ class Pronamic_WP_Pay_Gateways_Qantani_Settings extends Pronamic_WP_Pay_GatewayS
 			'methods' => array( 'qantani' ),
 		);
 
-		// Return
 		return $sections;
 	}
 
@@ -57,7 +57,6 @@ class Pronamic_WP_Pay_Gateways_Qantani_Settings extends Pronamic_WP_Pay_GatewayS
 			'classes'     => array( 'regular-text', 'code' ),
 		);
 
-		// Return
 		return $fields;
 	}
 }
