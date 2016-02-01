@@ -6,5 +6,9 @@
 		<exclude name="Generic.Files.LowercasedFilename.NotFound" />
 
 		<exclude name="Squiz.Commenting" />
+
+		<exclude name="WordPress.NamingConventions.ValidVariableName.NotSnakeCaseMemberVar" />
+
+		<exclude name="WordPress.VIP.SlowDBQuery.slow_db_query" />
 	</rule>
 </ruleset>

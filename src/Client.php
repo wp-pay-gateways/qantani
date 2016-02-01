@@ -3,8 +3,9 @@
 /**
  * Title: Qantani gateway
  * Description:
- * Copyright: Copyright (c) 2005 - 2015
+ * Copyright: Copyright (c) 2005 - 2016
  * Company: Pronamic
+ *
  * @author Remco Tolsma
  * @since 1.0.0
  * @version 1.0.5
@@ -313,7 +314,11 @@ class Pronamic_WP_Pay_Gateways_Qantani_Client {
 		$transaction->appendChild( $parameters_element );
 
 		foreach ( $parameters as $key => $value ) {
-			$element = $document->createElement( $key, $value );
+			$element = $document->createElement( $key );
+
+			$text_node = $document->createTextNode( $value );
+
+			$element->appendChild( $text_node );
 
 			$parameters_element->appendChild( $element );
 		}
