@@ -7,6 +7,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Integration extends Pronamic_WP_Pay_Gatew
 		$this->url           = 'https://www.qantani.com/';
 		$this->dashboard_url = 'https://www.qantanipayments.com/backoffice/login/';
 		$this->provider      = 'qantani';
+		$this->deprecated    = true;
 	}
 
 	public function get_config_factory_class() {
