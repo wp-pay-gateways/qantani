@@ -35,7 +35,7 @@
 > 
 > Qantani Payments 
 > 
-> W: www.qantani.com E: support@qantani.com T: +3150-2110169 (tel:+3150-2110169) 
+> W: www.qantani.com E: support@qantani.com T: [+3150-2110169](tel:+3150-2110169) 
 > 
 > Qantani BV Mauritsstraat 1 9724 BH Groningen 
 
