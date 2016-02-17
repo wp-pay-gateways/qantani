@@ -8,7 +8,7 @@
 > 
 > Naast het aantal klanten en verwerkte transacties hebben wij ons aanbod aan betaalmethodes en opties uitgebreid. Middels een samenwerking met Mollie hebben wij een nieuw platform ontwikkeld waarmee we de beste internetkassa op de markt aanbieden tegen een zeer gunstige pricing.
 > 
-> Qantani zal zich vanaf heden puur op dit nieuwe platform richten, en daarom zullen wij het oude platform gefaseerd sluiten. Dit heeft ook gevolgen voor u. Het Easy-iDeal label houdt namelijk op met bestaan. Het gevolg hiervan is dat wij uw contract beÃ«indigen en uw account gaan sluiten.
+> Qantani zal zich vanaf heden puur op dit nieuwe platform richten, en daarom zullen wij het oude platform gefaseerd sluiten. Dit heeft ook gevolgen voor u. Het Easy-iDeal label houdt namelijk op met bestaan. Het gevolg hiervan is dat wij uw contract beëindigen en uw account gaan sluiten.
 > 
 > Wij maken gebruik van artikel 7 in de algemene voorwaarden;
 > 
