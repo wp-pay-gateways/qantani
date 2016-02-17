@@ -1,4 +1,4 @@
-# WordPress Pay Gateway: Qantani
+# [DEPRECATED] WordPress Pay Gateway: Qantani
 
 **Qantani driver for the WordPress payment processing library.**
 

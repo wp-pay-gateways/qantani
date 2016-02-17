@@ -10,9 +10,10 @@
     "wordpress",
     "wp",
     "pay",
-    "sisow",
+    "qantani",
     "gateway",
-    "pronamic"
+    "pronamic",
+    "deprecated"
   ],
   "author": {
     "name": "Pronamic",

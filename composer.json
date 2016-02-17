@@ -1,7 +1,7 @@
 {
 	"name": "wp-pay-gateways/qantani",
 	"description": "Qantani driver for the WordPress payment processing library.",
-	"keywords": ["wordpress", "wp", "pay", "qantani", "gateway", "pronamic"],
+	"keywords": ["wordpress", "wp", "pay", "qantani", "gateway", "pronamic", "deprecated"],
 	"homepage": "http://www.wp-pay.org/gateways/qantani/",
 	"license": "GPL-3.0+",
 	"authors": [
