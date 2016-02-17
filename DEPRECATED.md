@@ -12,7 +12,7 @@
 > 
 > Wij maken gebruik van artikel 7 in de algemene voorwaarden;
 > 
-> **7. Duur, verlenging en beÃ«indiging overeenkomst**
+> **7. Duur, verlenging en beëindiging overeenkomst**
 > 
 > **7.1** De overeenkomst treedt in werking op het moment van ondertekening en wordt aangegaan voor de duur van twaalf (12) maanden.
 > 
