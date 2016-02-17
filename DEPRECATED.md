@@ -71,7 +71,7 @@
 > Met de komst van onze nieuwe website hebben wij ook je reseller account geactiveerd.
 > 
 > **Nieuwe documentatie**
-> Wij hebben je registratie voor het nieuwe platform ontvangen. Voor deze nieuwe backoffice is er een nieuwe documentatie beschikbaar. Deze documentatie vind je op onze website, klik hier om de documentatie te bereiken.
+> Wij hebben je registratie voor het nieuwe platform ontvangen. Voor deze nieuwe backoffice is er een nieuwe documentatie beschikbaar. Deze documentatie vind je op onze website, [klik hier](https://www.qantani.com/documentatie/) om de documentatie te bereiken.
 > 
 > **Je persoonlijke referral link**
 > Je nieuwe referral link staat vanaf vandaag online. Je kunt nu nieuwe klanten met deze link uitnodigen! Vergeet vooral niet onze actie te vermelden. Tot 1 november betalen de klanten die je aanbrengt namelijk geen activeringskosten voor de iDEAL module.
