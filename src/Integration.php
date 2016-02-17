@@ -3,7 +3,7 @@
 class Pronamic_WP_Pay_Gateways_Qantani_Integration extends Pronamic_WP_Pay_Gateways_AbstractIntegration {
 	public function __construct() {
 		$this->id            = 'qantani';
-		$this->name          = 'Qantani';
+		$this->name          = __( 'Qantani (old platform)', 'pronamic_ideal' );
 		$this->url           = 'https://www.qantani.com/';
 		$this->dashboard_url = 'https://www.qantanipayments.com/backoffice/login/';
 		$this->provider      = 'qantani';
