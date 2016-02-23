@@ -24,10 +24,6 @@ class Pronamic_WP_Pay_Gateways_Qantani_Integration extends Pronamic_WP_Pay_Gatew
 		return 'Pronamic_WP_Pay_Gateways_Qantani_ConfigFactory';
 	}
 
-	public function get_config_class() {
-		return 'Pronamic_WP_Pay_Gateways_Qantani_Config';
-	}
-
 	public function get_settings_class() {
 		return 'Pronamic_WP_Pay_Gateways_Qantani_Settings';
 	}
