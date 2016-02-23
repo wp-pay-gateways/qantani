@@ -30,4 +30,8 @@ class Pronamic_WP_Pay_Gateways_Qantani_Config extends Pronamic_WP_Pay_GatewayCon
 	 * @var string
 	 */
 	public $key_version;
+
+	public function get_gateway_class() {
+		return 'Pronamic_WP_Pay_Gateways_Qantani_Gateway';
+	}
 }
