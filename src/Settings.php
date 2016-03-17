@@ -88,7 +88,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Settings extends Pronamic_WP_Pay_GatewayS
 			'title'         => __( 'Transaction feedback', 'pronamic_ideal' ),
 			'type'          => 'description',
 			'html'          => sprintf(
-				'<span class="dashicons dashicons-no pronamic-pay-no"></span> %s',
+				'<span class="dashicons dashicons-no"></span> %s',
 				__( 'Payment status updates are not supported by this payment provider.', 'pronamic_ideal' )
 			),
 		);
