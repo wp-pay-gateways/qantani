@@ -108,15 +108,14 @@ class Pronamic_WP_Pay_Gateways_Qantani_Gateway extends Pronamic_WP_Pay_Gateway {
 	/**
 	 * Start
 	 *
-	 * @param Pronamic_Pay_PaymentDataInterface $data
 	 * @see Pronamic_WP_Pay_Gateway::start()
 	 */
-	public function start( Pronamic_Pay_PaymentDataInterface $data, Pronamic_Pay_Payment $payment, $payment_method = null ) {
+	public function start( Pronamic_Pay_Payment $payment ) {
 		$result = $this->client->create_transaction(
-			$data->get_amount(),
-			$data->get_currency(),
-			$data->get_issuer_id(),
-			$data->get_description(),
+			$payment->get_amount(),
+			$payment->get_currency(),
+			$payment->get_issuer(),
+			$payment->get_description(),
 			$payment->get_return_url()
 		);
 
