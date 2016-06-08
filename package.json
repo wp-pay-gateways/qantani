@@ -1,6 +1,6 @@
 {
   "name": "qantani",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "[DEPRECATED] Qantani driver for the WordPress payment processing library.",
   "repository": {
     "type": "git",
