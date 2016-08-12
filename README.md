@@ -8,7 +8,7 @@
 [![Total Downloads](https://poser.pugx.org/wp-pay-gateways/qantani/downloads.svg)](https://packagist.org/packages/wp-pay-gateways/qantani)
 [![Latest Unstable Version](https://poser.pugx.org/wp-pay-gateways/qantani/v/unstable.svg)](https://packagist.org/packages/wp-pay-gateways/qantani)
 [![License](https://poser.pugx.org/wp-pay-gateways/qantani/license.svg)](https://packagist.org/packages/wp-pay-gateways/qantani)
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 
 ## Links
 
