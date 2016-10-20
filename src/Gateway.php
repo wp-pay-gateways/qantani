@@ -7,7 +7,7 @@
  * Company: Pronamic
  *
  * @author Remco Tolsma
- * @version 1.0.9
+ * @version 1.1.0
  * @since 1.0.0
  */
 class Pronamic_WP_Pay_Gateways_Qantani_Gateway extends Pronamic_WP_Pay_Gateway {
@@ -99,7 +99,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Gateway extends Pronamic_WP_Pay_Gateway {
 	 */
 	public function get_supported_payment_methods() {
 		return array(
-			Pronamic_WP_Pay_PaymentMethods::IDEAL => Pronamic_WP_Pay_PaymentMethods::IDEAL,
+			Pronamic_WP_Pay_PaymentMethods::IDEAL,
 		);
 	}
 
