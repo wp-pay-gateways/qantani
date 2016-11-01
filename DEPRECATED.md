@@ -1,5 +1,31 @@
 # Deprecated
 
+## Update November 1, 2016
+
+> Goedemorgen,
+> 
+> Zoals je waarschijnlijk al weet zal je account op het oude Qantani platform gaan sluiten. Je hebt momenteel al een account geregistreerd op ons nieuwe platform. Indien je de registratie van je nieuwe account nog niet volledig hebt afgerond kun je de registratie voltooien via de nieuwe backoffice op www.qantani.eu.
+> 
+> Het verwerken van transacties via het oude platform van Qantani (www.qantanipayments.com) kan nog t/m 30 november 2016. Zorg ervoor dat je de registratie op het nieuwe systeem vroegtijdig afrondt, zodat je transacties kunt gaan verwerken via ons nieuwe systeem. Transacties verwerken via ons oude Qantani systeem is vanaf 1 december 2016 niet meer mogelijk is.
+> 
+> Wij maken gebruik van artikel 7 in de algemene voorwaarden;
+> 
+>  1. Duur, verlenging en beëindiging overeenkomst 7.1 De overeenkomst treedt in werking op het moment van ondertekening en wordt aangegaan voor de duur van twaalf (12) maanden. 7.2 De overeenkomst wordt na twaalf maanden telkenmale stilzwijgend verlengd. Behoudens opzegging die de ene partij schriftelijk naar de andere partij stuurt met een opzegtermijn van een (1) maand.
+> 
+> Op onze website vind je meer informatie over welke stappen je kunt nemen voor het overschakelen op het nieuwe platform van Qantani. Neem hiervoor een kijkje op: www.qantani.com/overstappen
+> 
+> We hopen je hiermee voldoende te hebben geïnformeerd. Mocht je toch nog vragen hebben, dan zijn wij tijdens kantooruren telefonisch bereikbaar of stuur een mail naar support@qantani.com.
+> 
+> Met vriendelijke groet,
+> Qantani Payments
+> W: www.qantani.com
+> E: support@qantani.com
+> T: +31(0)50-2110169
+> 
+> Qantani B.V.
+> Mauritsstraat 1
+> 9724 BH Groningen
+
 ## Update February 16, 2016
 
 > Beste __klant__, 
