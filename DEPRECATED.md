@@ -16,15 +16,15 @@
 > 
 > We hopen je hiermee voldoende te hebben geïnformeerd. Mocht je toch nog vragen hebben, dan zijn wij tijdens kantooruren telefonisch bereikbaar of stuur een mail naar support@qantani.com.
 > 
-> Met vriendelijke groet,
-> Qantani Payments
-> W: www.qantani.com
-> E: support@qantani.com
-> T: +31(0)50-2110169
+> Met vriendelijke groet,  
+> Qantani Payments  
+> W: www.qantani.com  
+> E: support@qantani.com  
+> T: +31(0)50-2110169  
 > 
-> Qantani B.V.
-> Mauritsstraat 1
-> 9724 BH Groningen
+> Qantani B.V.  
+> Mauritsstraat 1  
+> 9724 BH Groningen  
 
 ## Update February 16, 2016
 
