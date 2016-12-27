@@ -18,6 +18,9 @@ class Pronamic_WP_Pay_Gateways_Qantani_Integration extends Pronamic_WP_Pay_Gatew
 		$this->dashboard_url = 'https://www.qantanipayments.com/backoffice/login/';
 		$this->provider      = 'qantani';
 		$this->deprecated    = false;
+
+		// Filters
+		add_filter( 'pronamic_payment_provider_url_' . $this->id, array( $this, 'payment_provider_url' ), 10, 2 );
 	}
 
 	public function get_config_factory_class() {
@@ -41,5 +44,19 @@ class Pronamic_WP_Pay_Gateways_Qantani_Integration extends Pronamic_WP_Pay_Gatew
 		$settings[] = 'qantani';
 
 		return $settings;
+	}
+
+	/**
+	 * Payment provider URL.
+	 *
+	 * @param string  $url
+	 * @param Payment $payment
+	 * @return string
+	 */
+	public function payment_provider_url( $url, $payment ) {
+		return sprintf(
+			'https://www.qantanipayments.com/backoffice/transactions/details/%s/',
+			$payment->get_transaction_id()
+		);
 	}
 }
